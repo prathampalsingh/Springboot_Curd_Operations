@@ -42,6 +42,7 @@ public class StudentController {
     }
     // get students details whoes id is mentioned.
     @GetMapping("/getStdById/{id}")
+    // pathvarible makes it sure that the parameter passes is validated
     public student fetchDataById(@PathVariable int id){
         // fetch data by id
         return stdServ.getStdById(id);
