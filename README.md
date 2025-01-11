@@ -55,8 +55,12 @@ This project demonstrates fundamental concepts of Java, Spring Boot, and MySQL b
    * Set the URL to `http://localhost:8080/addStd` (assuming the application runs on port 8080).
    * In the Body tab, select `raw` and set the content type to `application/json`.
    * Provide a JSON object representing the student data you want to create (e.g.,
-   *   
-   *        ```{name": "John Doe", "mark": 90}```
+   * ```json
+{
+  "name": "John Doe",
+  "age": 30,
+  "city": "New York"
+}
    * Send the request.
 5. **Read Operation:**
    * Set the request method to `GET`.
