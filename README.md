@@ -56,7 +56,7 @@ This project demonstrates fundamental concepts of Java, Spring Boot, and MySQL b
    * In the Body tab, select `raw` and set the content type to `application/json`.
    * Provide a JSON object representing the student data you want to create 
      ```json
-     {"name": "John Doe","age": 30,"city": "New York"}
+     {"name": "John Doe","mark": 30}
      ```
    * Send the request.
 5. **Read Operation:**
