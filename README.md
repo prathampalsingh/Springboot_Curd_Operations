@@ -61,6 +61,7 @@ This project demonstrates fundamental concepts of Java, Spring Boot, and MySQL b
   "age": 30,
   "city": "New York"
 }
+```javascript const message = "Hello, world!" console.log(message);```
    * Send the request.
 5. **Read Operation:**
    * Set the request method to `GET`.
