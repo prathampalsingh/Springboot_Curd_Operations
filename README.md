@@ -54,19 +54,23 @@ This project demonstrates fundamental concepts of Java, Spring Boot, and MySQL b
    * Set the request method to `POST`.
    * Set the URL to `http://localhost:8080/addStd` (assuming the application runs on port 8080).
    * In the Body tab, select `raw` and set the content type to `application/json`.
-   * Provide a JSON object representing the student data you want to create (e.g., `{ "name": "John Doe", "mark": 90 }`).
+   * Provide a JSON object representing the student data you want to create (e.g.,
+   *   
+   *        ```json
+     { "name": "John Doe", "mark": 90 }
+     ```
    * Send the request.
-4. **Read Operation:**
+5. **Read Operation:**
    * Set the request method to `GET`.
    * Set the URL to `http://localhost:8080/getAllData` to retrieve all students.
    * You can also use `http://localhost:8080/getStdById/{id}` to retrieve a specific student by ID, replacing `{id}` with the actual student ID.
    * Send the request.
-5. **Update Operation:**
+6. **Update Operation:**
    * Set the request method to `PUT`.
    * Set the URL to `http://localhost:8080/updStd`.
    * In the Body tab, provide a JSON object representing the updated student data.
    * Send the request.
-6. **Delete Operation:** (**Not implemented in this example project**):
+7. **Delete Operation:** (**Not implemented in this example project**):
    * You can implement a DELETE endpoint to remove students from the database. Refer to Spring Data JPA documentation for guidance.
 
 This project provides a solid foundation for understanding core Spring Boot concepts and building more complex applications with database interactions.
