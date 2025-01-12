@@ -76,15 +76,19 @@ This project provides a solid foundation for understanding core Spring Boot conc
  **Result**
 
 Student database:
+
 ![student_newdb](https://github.com/user-attachments/assets/a125d86e-cfce-413c-b541-7c58575f4667)
 
 Spring Starting:
+
 ![student_vs](https://github.com/user-attachments/assets/82535cf7-5af1-40d4-be24-ad84f082abb0)
 
 Post student data in database using postman:
+
 ![post_req_student](https://github.com/user-attachments/assets/ec4df98b-2966-4132-bb75-142639e714ab)
 
 Get Student data by ID in postman:
+
 ![get_studentbyid](https://github.com/user-attachments/assets/e10a76cf-4d45-4312-bf8d-3837de157a72)
 
 
